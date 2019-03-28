@@ -1,2 +1,18 @@
 # incubating
 Starting repo for incubating Ship Apps
+
+
+### Contributing
+
+To submit a new ship app, create one or both of:
+
+- an issue to track discussion of that app
+
+or
+
+- a PR adding a new project, it should be in a sub-directory with a ship.yaml, e.g. to create a shipapp for `cert-manager`
+
+```shell
+mkdir cert-manager
+touch cert-manager/ship.yaml
+```
